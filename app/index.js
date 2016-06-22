@@ -27,7 +27,7 @@ var bpmnModeler = new BpmnModeler({
   }
 });
 
-var newDiagramXML = fs.readFileSync(__dirname + '/../resources/newDiagram.bpmn', 'utf-8');
+var newDiagramXML = fs.readFileSync(__dirname + '/../resources/hska.bpmn', 'utf-8');
 
 function createNewDiagram() {
   openDiagram(newDiagramXML);

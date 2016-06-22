@@ -74,3 +74,14 @@ grunt auto-build
 Both tasks generate the distribution ready client-side modeler application into the `dist` folder.
 
 Serve the application locally or via a web server (nginx, apache, embedded).
+
+## HSKA Example in Browser
+
+```
+npm install
+grunt --force
+cd dist
+http-server
+```
+
+If http-server is not installed, install with npm. Or use another server.
